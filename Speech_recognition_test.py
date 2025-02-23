@@ -9,7 +9,7 @@ def speech_to_text():
             audio = recognizer.listen(source)
 
             print("Đang xử lý...")
-            text = recognizer.recognize_google(audio, language="vi-VN")  # Đặt ngôn ngữ
+            text = recognizer.recognize_google(audio, language="en-US")  # Đặt ngôn ngữ
             print("Bạn vừa nói: ", text)
             return text
 
