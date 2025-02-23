@@ -1,0 +1,13 @@
+Các bước để chạy thử file 'Speech_recognition_test.py':
+    b1: install speechrecognition
+    b2: install PyAudio
+    run..
+
+Tổng quan dự án:
+    Ứng dụng luyện phát âm tiếng anh có sử dụng trí tuệ nhân tạo.
+
+Phương thức hoạt động:
+    Khi vào ứng dụng, người dùng sẽ được hệ thống đề xuất hiển thị các văn bản với độ khó/độ dài tùy cấp độ, người dùng
+    chỉ việc đọc theo văn bản được hiển thị, hệ thống sẽ ghi nhận phát âm và đưa ra đánh giá về phát âm của người dùng.
+    Từ đó đưa ra các đề xuất/ví dụ để cải thiện phát âm.
+
